@@ -37,9 +37,12 @@ export default function Home() {
             </span>
           </div>
 
-          <button className="rounded-full border border-blue-700 px-5 py-2 font-semibold text-blue-700 transition hover:bg-blue-50">
-            Try Demo
-          </button>
+          <a
+  href="/dashboard"
+  className="rounded-full border border-blue-700 px-5 py-2 text-blue-700 font-semibold hover:bg-blue-50 transition"
+>
+  Try Demo
+</a>
         </div>
       </nav>
 
@@ -68,11 +71,11 @@ export default function Home() {
   Start Health Check-In
 </a>
 
-            <a
+   <a
   href="/dashboard"
   className="rounded-full border border-slate-300 bg-white px-7 py-3 font-semibold text-slate-800 transition hover:bg-slate-100"
 >
-  🎙 Speak to CareBridge
+  🗣 Speak to CareBridge
 </a>
           </div>
 
