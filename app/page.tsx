@@ -61,13 +61,19 @@ export default function Home() {
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <button className="rounded-full bg-blue-700 px-7 py-3 font-semibold text-white shadow-lg transition hover:bg-blue-800">
-              Start Health Check-In
-            </button>
+            <a
+  href="/dashboard"
+  className="rounded-full bg-blue-700 px-7 py-3 font-semibold text-white shadow-lg transition hover:bg-blue-800"
+>
+  Start Health Check-In
+</a>
 
-            <button className="rounded-full border border-slate-300 bg-white px-7 py-3 font-semibold text-slate-800 transition hover:bg-slate-100">
-              🎙️ Speak to CareBridge
-            </button>
+            <a
+  href="/dashboard"
+  className="rounded-full border border-slate-300 bg-white px-7 py-3 font-semibold text-slate-800 transition hover:bg-slate-100"
+>
+  🎙 Speak to CareBridge
+</a>
           </div>
 
           <p className="mt-5 text-sm text-slate-500">
